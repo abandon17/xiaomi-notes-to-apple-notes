@@ -1,0 +1,55 @@
+{
+ "_comment": "Fabricated example of the raw/notes.json layout produced by export_xiaomi_notes.py. Every value here is made up placeholder text; no real note content, no real ids. Timestamps are milliseconds since the Unix epoch.",
+ "folders": [
+  {
+   "id": "1",
+   "type": "folder",
+   "subject": "Example Folder",
+   "status": "normal",
+   "createDate": 1600000000000,
+   "modifyDate": 1600000000000
+  }
+ ],
+ "notes": [
+  {
+   "id": "1000000000000000001",
+   "type": "note",
+   "status": "normal",
+   "folderId": 0,
+   "subject": "",
+   "snippet": "Example note one",
+   "content": "<text indent=\"0\"><b>Example note one</b></text>\nPlain body line.\n<text indent=\"1\">An indented line.</text>",
+   "createDate": 1600000000000,
+   "modifyDate": 1600000500000,
+   "extraInfo": "{}",
+   "setting": {
+    "data": [],
+    "themeId": 0,
+    "version": 1
+   }
+  },
+  {
+   "id": "1000000000000000002",
+   "type": "note",
+   "status": "normal",
+   "folderId": 0,
+   "subject": "",
+   "snippet": "Example note two, with an image",
+   "content": "Example note two, with an image\n☺ 999999999.ExampleFileIdAAAAAAAAAA\nA caption after the picture.",
+   "createDate": 1610000000000,
+   "modifyDate": 1610000900000,
+   "extraInfo": "{\"title\":\"Custom Title From extraInfo\"}",
+   "setting": {
+    "data": [
+     {
+      "fileId": "999999999.ExampleFileIdAAAAAAAAAA",
+      "mimeType": "image/jpeg",
+      "digest": "00000000000000000000000000000000"
+     }
+    ],
+    "themeId": 0,
+    "version": 1
+   }
+  }
+ ]
+}

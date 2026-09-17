@@ -1,0 +1,11 @@
+# Both scripts run on the Python standard library alone -- nothing here is
+# required to migrate your notes.
+#
+# Optional convenience only: lets `export_xiaomi_notes.py --from-browser`
+# read the i.mi.com session cookie out of a browser you are already logged
+# in to, instead of copying it from DevTools by hand. It does not and cannot
+# log in for you.
+#
+#   pip3 install -r requirements.txt
+#
+browser_cookie3>=0.19.1

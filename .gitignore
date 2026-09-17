@@ -1,0 +1,17 @@
+# Exported personal data -- never commit
+raw/
+test_run/
+*.enex
+cookie*
+XIAOMI_COOKIE*
+
+# JSON is data by default; the fabricated format example is the one exception
+*.json
+!examples/sample_notes.json
+
+# Python / macOS
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.DS_Store
